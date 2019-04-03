@@ -1,14 +1,19 @@
-import * as React from "react";
-import { Component } from "react";
+import * as React from 'react';
+import { Component } from 'react';
 
-import "./app.scss";
+import './app.scss';
 
 export class App extends Component {
   render() {
-    const title = "reacttest";
+    const title = 'reacttest';
+
+    console.log({
+      styles: ['./app.scss']
+    });
+
     return (
       <div>
-        <div style={{ textAlign: "center" }}>
+        <div style={{ textAlign: 'center' }}>
           <h1>Welcome to {title}!</h1>
           <img
             width="450"

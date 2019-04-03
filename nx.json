@@ -13,6 +13,12 @@
     },
     "reacttest-e2e": {
       "tags": []
+    },
+    "ngapp": {
+      "tags": []
+    },
+    "ngapp-e2e": {
+      "tags": []
     }
   }
 }
