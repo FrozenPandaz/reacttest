@@ -28,7 +28,8 @@
   },
   "private": true,
   "dependencies": {
-    "@nrwl/workspace": "8.0.0-alpha.4",
+    "@angular/core": "^7.2.14",
+    "@nrwl/workspace": "../../../nx/build/packages/workspace/",
     "document-register-element": "1.13.1",
     "react": "16.8.3",
     "react-dom": "16.8.3"
