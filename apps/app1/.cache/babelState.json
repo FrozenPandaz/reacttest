@@ -20,7 +20,11 @@
             "root": [
               "./src"
             ],
-            "alias": {}
+            "alias": {
+              "@gatsby-test/my-button": [
+                "/home/jason/projects/temp/nx-tests/gatsby-test/libs/my-button/src/index.ts"
+              ]
+            }
           }
         }
       ],
@@ -57,7 +61,11 @@
             "root": [
               "./src"
             ],
-            "alias": {}
+            "alias": {
+              "@gatsby-test/my-button": [
+                "/home/jason/projects/temp/nx-tests/gatsby-test/libs/my-button/src/index.ts"
+              ]
+            }
           }
         }
       ],
@@ -94,7 +102,11 @@
             "root": [
               "./src"
             ],
-            "alias": {}
+            "alias": {
+              "@gatsby-test/my-button": [
+                "/home/jason/projects/temp/nx-tests/gatsby-test/libs/my-button/src/index.ts"
+              ]
+            }
           }
         }
       ],
@@ -131,7 +143,11 @@
             "root": [
               "./src"
             ],
-            "alias": {}
+            "alias": {
+              "@gatsby-test/my-button": [
+                "/home/jason/projects/temp/nx-tests/gatsby-test/libs/my-button/src/index.ts"
+              ]
+            }
           }
         }
       ],

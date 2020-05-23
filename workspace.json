@@ -225,6 +225,34 @@
           }
         }
       }
+    },
+    "my-button": {
+      "root": "libs/my-button",
+      "sourceRoot": "libs/my-button/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "config": "libs/my-button/.eslintrc",
+            "tsConfig": [
+              "libs/my-button/tsconfig.lib.json",
+              "libs/my-button/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/my-button/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/my-button/jest.config.js",
+            "tsConfig": "libs/my-button/tsconfig.spec.json",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {

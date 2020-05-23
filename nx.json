@@ -35,6 +35,9 @@
     "app3-e2e": {
       "tags": [],
       "implicitDependencies": ["app3"]
+    },
+    "my-button": {
+      "tags": []
     }
   }
 }
